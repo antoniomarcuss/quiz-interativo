@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+body{
+    background-color: #343A40;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.3em;
+   
+}
+
+header {
+    background-color: rgb(63, 63, 245);
+    text-align: center;
+    padding: 30px;
+}
+
+.result{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3em;
+}
+
+
+
+.result span{
+    color:  rgb(63, 63, 245);
+    font-size: 2em;
+}
+
+header h1{
+    color: white;
+    font-size: 4em;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+}
+
+section{
+    margin: 10px;
+    padding: 10px;
+    max-width: 600px;
+ 
+}
+
+section p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.question {
+    margin: 20px auto;
+}
+
+
+button{
+    background-color: rgb(63, 63, 245);
+    color: white;
+    border: none;
+    width: 250px;
+    align-self: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(7, 7, 253)
+}
+
+/* classList */
+
+.d-none {
+ display: none;  
+}
+
+.error {
+    text-decoration: line-through;
+    color: rgb(255, 59, 59);
+}
+
+.success {
+    color:  rgb(7, 242, 7);
+}

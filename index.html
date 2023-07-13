@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <div class="result d-none">
+        <p>Você acertou <span>0%</span> do quiz</p>
+    </div>
+    
+        <h3>Você consegue acertar para que serve cada método em javascript ?</h3>
+
+    <form action="#">
+        <section>
+            <p>1. Para que serve o "Método push":</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion1" value="A">  
+                    Para adicionar um elemento ou mais elementos no array 
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion1" value="B">
+                    Para remover um elemento no array
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion1" value="C">
+                    Para remover o primeiro elemento no array
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion1" value="D">
+                    Para remover o ultimo elemento no array
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>2. O que o "método find" faz:</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion2" value="A"> 
+                    Retorna o ultimo elemento que o satisfaça
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion2" value="B">
+                    Remove um elemento no array
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion2" value="C">
+                    Retorna o primeiro elemento que o satisfaça
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion2" value="D">
+                    Remove o primeiro elemento no array
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>3. O que o "método pop" faz:</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion3" value="A"> 
+                    Remove o primeiro elemento do array e o retorna
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion3" value="B">
+                    Adiciona um elemento na ultima posição do array
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion3" value="C">
+                    Remover todos os elemento no array e o retorna
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion3" value="D">
+                    Remove o ultimo elemento do array e o retorna
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>4. Para que serve o "método some"</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion4" value="A"> 
+                    Verifica se todos os elementos do array satisfaz a sua condição
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion4" value="B">
+                    Verifica se pelo menos um dos elementos do array satisfaz sua condição
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion4" value="C">
+                    Retorna todos os elemento no array
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion4" value="D">
+                    Retorna o ultimo elemento no array
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>5. O que o "método Shift" faz:</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion5" value="A"> 
+                    Remove o primeiro elemento do array e o retorna.
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion5" value="B">
+                    Remove o ultimo elemento do array.
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion5" value="C">
+                    Remove todos os elemento do array.
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion5" value="D">
+                    Retorna o ultimo elemento no array
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>6. O que o "método unshift" faz:</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion6" value="A"> 
+                    adicionar um ou mais elementos no final de um array. 
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion6" value="B">
+                    Remove o primeiro elemento do array.
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion6" value="C">
+                    Remove o ultimo os elemento do array.
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion6" value="D">
+                    adicionar um ou mais elementos no início de um array. 
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>7. Para que serve o "método forEach":</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion7" value="A"> 
+                    Ordena os elementos de um array em ordem alfabética ou numérica, modificando o array original.
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion7" value="B">
+                    Retorna o primeiro índice em que um determinado elemento é encontrado no array, ou -1 se o elemento não for encontrado.
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion7" value="C">
+                    Executa uma função de callback para cada elemento do array. Esse método é útil para percorrer todos os elementos do array e executar uma ação para cada um deles.
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion7" value="D">
+                    Cria um novo array com todos os elementos do array original
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>8. Para que serve o "método sort":</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion8" value="A"> 
+                    Retorna o último índice em que um determinado elemento é encontrado no array, ou -1 se o elemento não for encontrado.
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion8" value="B">
+                    Ordena os elementos de um array em ordem alfabética ou numérica, modificando o array original.
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion8" value="C">
+                    Combina dois ou mais arrays, retornando um novo array resultante da concatenação dos arrays originais.
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion8" value="D">
+                    Executa uma função de callback em cada elemento do array, resultando em um único valor de retorno.
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>9. Para que serve o "método map":</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion9" value="A"> 
+                    Cria um novo array com os resultados da aplicação de uma função de callback a todos os elementos do array original.
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion9" value="B">
+                    Retorna uma cópia superficial (shallow copy) de uma parte de um array em um novo array.
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion9" value="C">
+                    Executa uma função de callback em cada elemento do array, resultando em um único valor de retorno.
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion9" value="D">
+                    Combina dois ou mais arrays, retornando um novo array resultante da concatenação dos arrays originais.
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <p>10. Para que serve o "método reduce":</p>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion10" value="A"> 
+                    Executa uma função de callback em cada elemento do array, resultando em um único valor de retorno.
+                </label>
+            </div>
+
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion10" value="B">
+                    Retorna o último índice em que um determinado elemento é encontrado no array, ou -1 se o elemento não for encontrado
+                </label>
+            </div>
+            
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion10" value="C">
+                    Combina dois ou mais arrays, retornando um novo array resultante da concatenação dos arrays originais.
+                </label>
+            </div>
+            <div class="question">
+                <label>
+                    <input type="radio" name="inputQuestion10" value="D">
+                    Executa uma função de callback em cada elemento do array, resultando em um único valor de retorno.
+                </label>
+            </div>
+        </section>
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
